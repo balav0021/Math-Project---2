@@ -7,6 +7,9 @@ https://doi.org/10.1016/j.ijhydene.2013.03.157
 ## Overview
 The paper presents a comprehensive investigation into anaerobic hydrogen production by mixed cultures, aiming to understand the kinetics of this process. It introduces an innovative method that combines weighted nonlinear least-squares analysis and an accelerating genetic algorithm to estimate crucial kinetic parameters involved in hydrogen production from sucrose. Through this approach, the study determines key parameters such as maximum substrate uptake rate, substrate uptake affinity constant, and yield coefficient. Validating these estimations with experimental data and comparing them with existing literature, the paper offers a promising and efficient means to analyze and optimize the kinetics of anaerobic hydrogen production, crucial for advancing clean energy generation methods.
 
+<p align="center">
+  <img src="https://github.com/balav0021/Math-Project---2/blob/main/ODE.png" width="350"><br>
+</p>
 
 ## Fitting the Model to Experimental Data
 The process entails formulating a set of differential equations modeling anaerobic hydrogen production kinetics, solving them numerically with odeint, and iteratively adjusting parameters like km, ks, Y, and FH2 within the equations to optimize the model's predictive accuracy by comparing simulated substrate concentrations with experimental data.
