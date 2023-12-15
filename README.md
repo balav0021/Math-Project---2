@@ -68,6 +68,7 @@ The pairplot function from the seaborn library generates histograms and scatter 
 <p align="center">
   <img src="https://github.com/balav0021/Math-Project---2/blob/main/Sensitivity_3.png" width="350"><br>
 </p>
+
 #### Step 3: Use Least Squares to Estimate the Normalized Sensitivities
 The code employs least squares estimation to determine the linear relationship between normalized parameters and the normalized output, facilitating the quantification of parameter sensitivities on the output in a linear regression context.
 <p align="center">
