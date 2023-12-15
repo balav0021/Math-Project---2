@@ -42,11 +42,14 @@ The code conducts a bifurcation analysis by systematically altering the paramete
 </p>
 
 ## Sensitivity Analysis
+<p align="center">
+  <img src="https://github.com/balav0021/Math-Project---2/blob/main/Sensitivity.png" width="350"><br>
+</p>
 
 ### Local Sensitivity Analysis
 Local sensitivity analysis involves perturbing individual model parameters around nominal values and observing the resulting impact on the model output to assess their relative influence.
 <p align="center">
-  <img src="https://github.com/balav0021/Math-Project---2/blob/main/Sensitivity.png" width="350"><br>
+  <img src="https://github.com/balav0021/Math-Project---2/blob/main/Sensitivity_1.png" width="350"><br>
 </p>
 
 ### Global Sensitivity Analysis
@@ -54,19 +57,18 @@ Local sensitivity analysis involves perturbing individual model parameters aroun
 #### Step 1: Generate Data
 Global sensitivity analysis involves randomly sampling parameters within defined ranges, integrating the model for each set using Monte Carlo methods, and analyzing resulting outputs to assess the collective influence of parameter variations on model behavior.
 <p align="center">
-  <img src="https://github.com/balav0021/Math-Project---2/blob/main/Sensitivity_1.png" width="350"><br>
+  <img src="https://github.com/balav0021/Math-Project---2/blob/main/Sensitivity_2.png" width="350"><br>
 </p>
 
 #### Step 2: Visualize Your Parameter Space
 The pairplot function from the seaborn library generates histograms and scatter plots to showcase parameter distributions and relationships, providing an overview of the parameter space for global sensitivity analysis.
 <p align="center">
-  <img src="https://github.com/balav0021/Math-Project---2/blob/main/Sensitivity_2.png" width="350"><br>
+  <img src="https://github.com/balav0021/Math-Project---2/blob/main/Sensitivity_3.png" width="350"><br>
 </p>
-
 #### Step 3: Use Least Squares to Estimate the Normalized Sensitivities
 The code employs least squares estimation to determine the linear relationship between normalized parameters and the normalized output, facilitating the quantification of parameter sensitivities on the output in a linear regression context.
 <p align="center">
-  <img src="" width="350"><br>
+  <img src="https://github.com/balav0021/Math-Project---2/blob/main/Sensitivity_4.png" width="350"><br>
 </p>
 
 
